@@ -1,0 +1,58 @@
+.right-arrow{
+    transition: box-shadow 500ms linear;
+}
+.right-arrow:hover{
+    box-shadow: 0px 0px 20px 5px rgb(119, 243, 114);
+}
+.right-arrow .fas{
+    transition: margin-left 300ms ease-in;
+}
+.right-arrow:hover .fas{
+   margin-left:15px
+}
+nav{
+    opacity: 0.9;
+}
+.cards .container{
+    max-height: 800px;
+    /* background-color:red; */
+    overflow-y: scroll;
+    box-shadow: 0px 0px 20px -5px gray;
+}
+.cards .container::-webkit-scrollbar{
+   display: none;
+}
+@media only screen and (min-width:1800px){
+    .features img{
+        width:2580px;
+    }
+}
+@media only screen and (min-width:1022px){
+    iframe{
+        width:540px;
+        height:240px;
+        margin-bottom: -20px;
+    }
+}
+@media only screen and (max-width:1200px){
+    iframe{
+        width:440px;
+        height:200px;
+        margin-bottom: -20px;
+    }
+}
+@media only screen and (max-width:995px){
+    iframe{
+        width:460px;
+        height:250px;
+        margin-bottom: -20px;
+
+    }
+}
+@media only screen and (max-width:480px){
+    iframe{
+        width:256px;
+        height:120px;
+        margin-bottom: -20px;
+    }
+}

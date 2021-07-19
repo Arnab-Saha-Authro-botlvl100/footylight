@@ -10,17 +10,20 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body class="bg-dark">
     <section id="nevsection">
         <div class="container-fill fixed-top ">
             <nav class="navbar navbar-expand-lg navbar-dark" style="background:rgb(114, 117, 116);">
-                <a class="navbar-brand" href="#">Football</a>
+                <a class="navbar-brand" href="#"><i class="fas fa-futbol"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav ms-auto m-2">
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -54,10 +57,10 @@
                     <p class="h1 pr-3 animate__animated animate__backInLeft md-3 text-light" style="font-size: 2.8em"><span class="text-warning ">Football</span> for everyone</p>
                     <p class="h5 mt-3 pr-4 text-light" style="font-size: 1.2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque cumque obcaecati consequatur totam exercitationem eos molestias, neque maiores ea doloribus excepturi, consequuntur accusamus esse, labore eligendi tenetur corporis modi.</p>
                    
-                    <button type="button" class="btn btn-outline-success mt-3 mb-3 animate__animated animate__swing">Watch Live</h1>
+                    <button type="button" class="btn right-arrow btn-outline-success mt-3 mb-3 animate__animated animate__swing">Watch Live <i class="fas fa-arrow-right"></i></h1>
                 </div>
                 <div class="col-md-6 col-lg-6 align-center justify-center">
-                    <img class="img-fluid animate__animated animate__rubberBand" src="img/banner.png">
+                    <img class="img-fluid animate__animated animate__rubberBand" id="banner_img" src="img/banner.png">
                 </div>
             </div>
         </div>
@@ -75,7 +78,7 @@
                 </ol>
                 <div class="carousel-inner container-fluid">
                   <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="img/bayern.jpg" alt="First slide">
+                    <img class="d-block img-fluid img-responsive" src="img/bayern.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>FCB OF GERMANY</h5>
                         
@@ -120,12 +123,133 @@
               </div>
         </div>
     </section>
-    <section class="cards">
-      <div class="container-fluid">
-         
+
+    <section class="cards row-cols-lg-4 row-cols-md-2 g-4 mb-5">
+      <div class="container">
+        <p class="h1 text-center text-light m-3 mt-5 animate__animated animate__flash">Transfer Window</p>
+        <div class="card-columns">
+            <div class="card ">
+               <a href="">
+                <img class="card-img-top" src="img/lawendawksi.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+               </a>
+            </div>
+            <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/hakimi.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/mbappe.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/ramos.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/fifa.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/grizeman.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/fcb.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/bayern.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="">
+                 <img class="card-img-top" src="img/varane.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title text-center">Card title</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+             </div>
+           
       </div>
     </section>
 
+    <section class="lives mt-5">
+        <div class="container">
+            <p class="h1 text-center text-success m-3 mt-5 animate__animated animate__flash">Live Matches</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col mb-5">
+
+                    <iframe width="560" height="315"  src="https://www.youtube.com/embed/rxslQS6KTS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                </div>
+                <div class="col mb-5">
+                   
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rxslQS6KTS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+                </div>
+                <div class="col mb-5">
+                   
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rxslQS6KTS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+                    
+                </div>
+                <div class="col mb-5">
+                   
+                      <iframe width="560" height="315"  src="https://www.youtube.com/embed/rxslQS6KTS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
